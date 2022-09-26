@@ -26,7 +26,7 @@ namespace Prakt1
             InitializeComponent();
         }
 
-        private void Random_Click(object sender, RoutedEventArgs e)
+        private void Random_Click(object sender, RoutedEventArgs e) //Создание массива
         {
             Itog.Clear();
             Itog.Text = Class1.Vichisl(); //Вывод генерируемого числа и полученного из функции значения
