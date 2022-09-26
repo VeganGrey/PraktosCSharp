@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktos2", "Praktos2.csproj", "{BE688873-738C-4905-A7AD-831C518191A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMas", "..\LibMas\LibMas.csproj", "{D18BA6C9-30E5-49E1-A5FA-00E79704EA40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib_13", "..\lib_13\lib_13.csproj", "{F4C4B307-F622-4DC4-BB68-48D4BE7956AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE688873-738C-4905-A7AD-831C518191A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE688873-738C-4905-A7AD-831C518191A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE688873-738C-4905-A7AD-831C518191A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE688873-738C-4905-A7AD-831C518191A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18BA6C9-30E5-49E1-A5FA-00E79704EA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18BA6C9-30E5-49E1-A5FA-00E79704EA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18BA6C9-30E5-49E1-A5FA-00E79704EA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18BA6C9-30E5-49E1-A5FA-00E79704EA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C4B307-F622-4DC4-BB68-48D4BE7956AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C4B307-F622-4DC4-BB68-48D4BE7956AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C4B307-F622-4DC4-BB68-48D4BE7956AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C4B307-F622-4DC4-BB68-48D4BE7956AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A2EB4A4-A6E5-4942-9F7A-BBD69537A0EA}
+	EndGlobalSection
+EndGlobal

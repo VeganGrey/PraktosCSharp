@@ -1,0 +1,35 @@
+﻿<Window x:Class="Prakt3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Prakt3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="465" Width="800" Background="#FF353535">
+    <Grid>
+        <Menu VerticalAlignment="Top" Height="26">
+            <MenuItem Header="Программа">
+                <MenuItem Header="Вычислить" Click="Itog_Click"></MenuItem>
+                <MenuItem Header="Очистить" Click="Chistk_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Файл">
+                <MenuItem Header="Запись" Click="Zapisat_Click"></MenuItem>
+                <MenuItem Header="Открыть" Click="Open_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Общее">
+                <MenuItem Header="Выйти" Click="Quit_Clicl"></MenuItem>
+                <MenuItem Header="Справка" Click="Spravka_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <DataGrid x:Name="dataGrid" Margin="0,26,0,232" CellEditEnding="dataGrid_CellEditEnding" ></DataGrid>
+        <TextBox x:Name="randomchik" HorizontalAlignment="Left" Margin="23,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="34"/>
+        <TextBox x:Name="Stroki" HorizontalAlignment="Left" Margin="23,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="34"/>
+        <TextBox x:Name="Stolbzi" HorizontalAlignment="Left" Margin="23,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="34"/>
+        <Label Content="Рандом" HorizontalAlignment="Left" Margin="23,217,0,0" VerticalAlignment="Top" Foreground="White" Width="125"/>
+        <Label Content="Кол-во строк" HorizontalAlignment="Left" Margin="23,267,0,0" VerticalAlignment="Top" Foreground="White" Width="125"/>
+        <Label Content="Кол-_во столбцов" HorizontalAlignment="Left" Margin="23,327,0,0" VerticalAlignment="Top" Foreground="White" Width="125"/>
+        <Button Content="Генерировать" HorizontalAlignment="Left" Margin="204,293,0,0" VerticalAlignment="Top" Height="34" Width="97" Click="Random_Click"/>
+        <TextBox x:Name="Itogovoe" HorizontalAlignment="Left" Margin="480,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" Height="156" IsReadOnly="True"/>
+        <Button Content="Вычислить" HorizontalAlignment="Left" Margin="568,391,0,0" VerticalAlignment="Top" Height="34" Width="96" Click="Itog_Click"/>
+    </Grid>
+</Window>
