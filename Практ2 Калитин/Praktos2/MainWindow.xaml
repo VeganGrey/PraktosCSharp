@@ -22,7 +22,7 @@
                 <MenuItem Header="Выйти" Click="Quit_Click"></MenuItem>
             </MenuItem>
         </Menu>
-        <DataGrid x:Name="dataGrid" ColumnWidth="45" CanUserAddRows="False" Margin="0,23,10,170" IsReadOnly="True"></DataGrid>
+        <DataGrid x:Name="dataGrid" ColumnWidth="45" CanUserAddRows="False" Margin="0,23,10,170" IsReadOnly="True" SelectionChanged="dataGrid_SelectionChanged"></DataGrid>
         <TextBox x:Name="NizhPred" HorizontalAlignment="Left" Margin="10,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" Height="26"/>
         <TextBox x:Name="VerhPred" HorizontalAlignment="Left" Margin="10,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136" Height="27"/>
         <Button Content="Генерировать" HorizontalAlignment="Left" Margin="110,249,0,0" VerticalAlignment="Top" Width="102" Height="29" Click="Random_Click"/>

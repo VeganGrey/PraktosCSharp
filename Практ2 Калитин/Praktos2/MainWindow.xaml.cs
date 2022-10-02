@@ -67,7 +67,7 @@ namespace Praktos2
             this.Close();
         }
 
-        private void SaveFile_Click(object sender, RoutedEventArgs e)
+        private void SaveFile_Click(object sender, RoutedEventArgs e) //Для патча
         {
             LibMas.Masssiv.SaveMassiv(mas); //Функция на сохранения массива в файл
         }
@@ -76,6 +76,11 @@ namespace Praktos2
         {
             LibMas.Masssiv.OpenMassiv(ref mas); //Функция на чтение массива из файла и вывода в таблицу
             dataGrid.ItemsSource = VisualArray.ToDataTable(mas).DefaultView; //Вывод значений массива в таблицу
+        }
+
+        private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
